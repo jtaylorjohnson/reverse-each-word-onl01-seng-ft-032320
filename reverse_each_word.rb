@@ -4,5 +4,5 @@ def reverse_each_word(word_string)
   array.collect do |word|
     sentence << word.reverse
   end
-  puts "#{sentence}"
+  
 end
